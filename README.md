@@ -3,6 +3,15 @@ This is a very simple yet useful utility to generate files based on a template a
 
 Idk if this is useful or not but I am going to share it anyways just because. It is light (<100 LOC), well-written and secure.
 
+## Usage
+To use the utility, clone the git repository and run the Python script. Use `templator.py --help` to see all available options. You can also find an [example](#example) at the end.
+
+```
+git clone 'https://github.com/AntiKippi/templator.git'
+cd templator
+python templator.py --help
+```
+
 ## Output
 The resulting files are written into the specified directory and named after the given name template. The name template format is exactly the same as the file template format, so see [Template Format](#template-format) for details. All keys of the replacement dictionary can be used.
 
