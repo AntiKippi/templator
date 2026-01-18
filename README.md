@@ -57,7 +57,7 @@ The replacements file is a simple JSON array of replacement objects. Each replac
   }
 ]
 ```
-`$ templator.py -k code -t template.html -r rep.json`  
+`$ templator.py -n code -t template.html -r rep.json`  
 `$ cat 404.html`
 ```html
 <html>

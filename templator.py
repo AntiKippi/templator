@@ -20,12 +20,12 @@ def main():
                         "--force",
                         action="store_true",
                         help="Overwrite existing files without asking")
-    parser.add_argument("-k",
+    parser.add_argument("-n",
                         "--name-key",
                         required=False,
                         default=Constants.DEFAULT_NAME_KEY,
                         help=f"The JSON key which should be used as name. Defaults to \"{Constants.DEFAULT_NAME_KEY}\".")
-    parser.add_argument("-n",
+    parser.add_argument("-N",
                         "--name-template",
                         required=False,
                         default=None,
